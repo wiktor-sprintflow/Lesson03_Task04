@@ -1,0 +1,11 @@
+REFERENCJA					OBIEKT
+----------					------
+kitchen			---->		Category 1
+audio			---->		Category 2
+
+blender			---->		Product 1		---->  zawiera referencję "kitchen" do obiektu "Category 1"
+toaster			---->		Product 2		---->  zawiera referencję "kitchen" do obiektu "Category 1"
+amplituner		---->		Product 3		---->  zawiera referencję "audio" do obiektu "Category 2"
+tv				---->		Product 4		---->  nie ma referencji do obiektu typy Category
+
+specialOffer	---->		SpecialOffer 1	---->  zawiera referecnję "tv" do obiektu "Product 4"
